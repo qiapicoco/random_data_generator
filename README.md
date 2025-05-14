@@ -30,6 +30,11 @@ pip install pandas faker openpyxl
 python app.py
 ```
 
+### 打包项目为exe（自选）
+
+```python
+nuitka --onefile --windows-icon-from-ico=icon.ico --enable-plugin=tk-inter --output-filename=random_data_generator.exe app.py
+```
 
 
 
@@ -75,3 +80,8 @@ python app.py
 ## 🤝贡献与反馈
 
 如果你在使用过程中遇到问题或有任何建议，欢迎在 GitHub 上提交 issue 或 pull request。🙌
+
+
+
+
+
